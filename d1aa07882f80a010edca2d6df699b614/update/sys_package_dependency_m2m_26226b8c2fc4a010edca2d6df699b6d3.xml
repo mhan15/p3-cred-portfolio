@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">cd11df852f131010edca2d6df699b694</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-19 19:48:53</sys_created_on>
+        <sys_id>26226b8c2fc4a010edca2d6df699b6d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-19 19:48:53</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

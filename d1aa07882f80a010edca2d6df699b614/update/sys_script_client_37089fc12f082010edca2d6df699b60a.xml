@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto fill course date on new record</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_form.isNewRecord()) {
+        g_form.getReference('u_bat', setDate);
+    }
+}
+
+function setDate(batch) {
+    var start = batch.u_bat_start;
+    var end = batch.u_bat_end;
+    g_form.setValue('u_mod_start', start);
+    g_form.setValue('u_mod_end', end);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 21:42:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37089fc12f082010edca2d6df699b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto fill course date on new record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_script_client_37089fc12f082010edca2d6df699b60a</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 21:42:09</sys_updated_on>
+        <table>x_535557_cred_course</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

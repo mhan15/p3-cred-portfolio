@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>true</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Start course on monday</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="Muli Han">8626f3852f5b1010edca2d6df699b650</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-10-23 14:34:22</run_start>
+        <run_time>1970-01-01 10:01:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[var course = new GlideRecord('x_535557_cred_course');
+course.addQuery('state', '=', 1);
+course.query();
+
+while (course.next()) {
+    // check start date
+    var start_gdt = new GlideDateTime(course.getDisplayValue('u_mod_start'));
+    var start = start_gdt.getDate();
+
+    // get today's date
+    var today_gdt = new GlideDateTime();
+    var today = today_gdt.getDate();
+
+    gs.info('Course found: ' + course.number);
+
+    if (start == today) {
+        course.state = 2;
+    } else {
+        gs.info('State not updated because start date == today is ' + (start == today));
+    }
+    course.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-23 15:43:58</sys_created_on>
+        <sys_id>d280879d2f046010edca2d6df699b611</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Start course on monday</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sysauto_script_d280879d2f046010edca2d6df699b611</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-23 17:07:30</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

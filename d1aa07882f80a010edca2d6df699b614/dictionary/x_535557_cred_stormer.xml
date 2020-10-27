@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Stormer" max_length="40" name="x_535557_cred_stormer" sizeclass="7" type="collection">
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Name" max_length="32" name="name" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Preferred name" max_length="40" name="preferred_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Homepage" max_length="1024" name="u_hp_1" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="LinkedIn Profile" max_length="1024" name="u_hp_2" type="url"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Prospective" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Storm Chaser" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="Awaiting Placement" sequence="2" value="5"/>
+                <element inactive_on_update="false" label="Placed with Client" sequence="3" value="7"/>
+                <element inactive_on_update="false" label="Inactive" sequence="4" value="9"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="12"/>
+            </choice>
+        </element>
+    </element>
+</database>

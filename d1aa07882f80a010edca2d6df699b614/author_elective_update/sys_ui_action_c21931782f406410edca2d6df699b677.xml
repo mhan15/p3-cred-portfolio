@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>populate_modules</action_name>
+        <active>false</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>Populate course modules from selected technology.</hint>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Populate Modules</name>
+        <onclick>onClick()</onclick>
+        <order>100</order>
+        <script><![CDATA[function onClick() {
+//     var tech = g_form.getReference('u_bat', setModules);
+// }
+
+// function setModules(batch) {
+//     if (batch.u_bat_tech == 'ServiceNow') {
+        g_form.addInfoMessage('Course Modules for ServiceNow have been populated.');
+        g_form.clearOptions('u_mod');
+        g_form.addOption('u_mod', '0', 'Not Started');
+        g_form.addOption('u_mod', '10', '1. ServiceNow Fundamentals');
+        g_form.addOption('u_mod', '11', '2. Automation');
+        g_form.addOption('u_mod', '12', '3. Client-side Scripting');
+        g_form.addOption('u_mod', '13', '4. Server-side Scripting');
+        g_form.addOption('u_mod', '14', '5. ServiceNow Application Development');
+        g_form.addOption('u_mod', '15', '6. Performance Analytics');
+        g_form.addOption('u_mod', '16', '7. Service Portal');
+        g_form.addOption('u_mod', '17', '8. Individual Project');
+        g_form.addOption('u_mod', '18', '9. Team Project');
+        g_form.addOption('u_mod', '19', '10. Group Project');
+		
+//     }
+	
+// 	if (batch.u_bat_tech == 'Pega System') {
+//         g_form.addInfoMessage('Course Modules for Pega System have been populated.');
+//         g_form.clearOptions('u_mod');
+//         g_form.addOption('u_mod', '0', 'Not Started');
+//         g_form.addOption('u_mod', '20', '1. Introduction to Pega');
+//         g_form.addOption('u_mod', '21', '2. Case Management');
+//         g_form.addOption('u_mod', '22', '3. Data Modeling');
+//         g_form.addOption('u_mod', '23', '4. Validation');
+//         g_form.addOption('u_mod', '24', '5. Information Exchange');
+//         g_form.addOption('u_mod', '25', '6. User Interface');
+//         g_form.addOption('u_mod', '26', '7. Application Development');
+//         g_form.addOption('u_mod', '27', '8. Individual Project');
+//         g_form.addOption('u_mod', '28', '9. Team Project');
+//         g_form.addOption('u_mod', '29', '10. Group Project');
+		
+//     }
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-21 20:10:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c21931782f406410edca2d6df699b677</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>Populate Modules</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_ui_action_c21931782f406410edca2d6df699b677</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 17:23:30</sys_updated_on>
+        <table>x_535557_cred_course</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</application>
+        <file_path/>
+        <instance_id>19f4f648db2f84d04d2bac44d49619a7</instance_id>
+        <instance_name>dev102610</instance_name>
+        <name>sys_ui_action_c21931782f406410edca2d6df699b677</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;populate_modules&lt;/action_name&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint&gt;Populate course modules from selected technology.&lt;/hint&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Populate Modules&lt;/name&gt;&lt;onclick&gt;onClick()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function onClick() {
+//     var tech = g_form.getReference('u_bat', setModules);
+// }
+
+// function setModules(batch) {
+//     if (batch.u_bat_tech == 'ServiceNow') {
+        g_form.addInfoMessage('Course Modules for ServiceNow have been populated.');
+        g_form.clearOptions('u_mod');
+        g_form.addOption('u_mod', '0', 'Not Started');
+        g_form.addOption('u_mod', '10', '1. ServiceNow Fundamentals');
+        g_form.addOption('u_mod', '11', '2. Automation');
+        g_form.addOption('u_mod', '12', '3. Client-side Scripting');
+        g_form.addOption('u_mod', '13', '4. Server-side Scripting');
+        g_form.addOption('u_mod', '14', '5. ServiceNow Application Development');
+        g_form.addOption('u_mod', '15', '6. Performance Analytics');
+        g_form.addOption('u_mod', '16', '7. Service Portal');
+        g_form.addOption('u_mod', '17', '8. Individual Project');
+        g_form.addOption('u_mod', '18', '9. Team Project');
+        g_form.addOption('u_mod', '19', '10. Group Project');
+		
+//     }
+	
+// 	if (batch.u_bat_tech == 'Pega System') {
+//         g_form.addInfoMessage('Course Modules for Pega System have been populated.');
+//         g_form.clearOptions('u_mod');
+//         g_form.addOption('u_mod', '0', 'Not Started');
+//         g_form.addOption('u_mod', '20', '1. Introduction to Pega');
+//         g_form.addOption('u_mod', '21', '2. Case Management');
+//         g_form.addOption('u_mod', '22', '3. Data Modeling');
+//         g_form.addOption('u_mod', '23', '4. Validation');
+//         g_form.addOption('u_mod', '24', '5. Information Exchange');
+//         g_form.addOption('u_mod', '25', '6. User Interface');
+//         g_form.addOption('u_mod', '26', '7. Application Development');
+//         g_form.addOption('u_mod', '27', '8. Individual Project');
+//         g_form.addOption('u_mod', '28', '9. Team Project');
+//         g_form.addOption('u_mod', '29', '10. Group Project');
+		
+//     }
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin.muli&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-21 20:10:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c21931782f406410edca2d6df699b677&lt;/sys_id&gt;&lt;sys_mod_count&gt;48&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Modules&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Credential Portfolio" source="x_535557_cred"&gt;d1aa07882f80a010edca2d6df699b614&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Credential Portfolio"&gt;d1aa07882f80a010edca2d6df699b614&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_c21931782f406410edca2d6df699b677&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin.muli&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-22 17:23:30&lt;/sys_updated_on&gt;&lt;table&gt;x_535557_cred_course&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1582358216</payload_hash>
+        <record_name>Populate Modules</record_name>
+        <reverted_from/>
+        <source>0642eb8c2fc4a010edca2d6df699b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 17:23:30</sys_created_on>
+        <sys_id>caadd6492fc02010edca2d6df699b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1755156480c0000001</sys_recorded_at>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 17:23:30</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>06add649ebc02010354824fadfcca966</update_guid>
+        <update_guid_history>06add649ebc02010354824fadfcca966:-1582358216,f4734e0d144020107a0a2f8c697c69d2:-145350995,5b03820d994020105e4380c464e9c3f4:491300333,696082497b4020109a7cef02307c6ec1:-1193738787,144082490640201002ff17ffc04877f5:729836424,1f108ec5b840201072905d9994511634:-261651894,86ff3909f1402010cac78f754ca91ed7:-157733718,3ceeb9c5b54020101fd07094955d2921:286433636,d7deb5c5c74020102d8c2929a90b0adc:1723440857,2c3c71058840201053319275dd0ca643:-261651894,fa99b1014640201074e9ec0c0b063230:389249604,6f427d81110020104b1423506c8901ef:-1777517084,2e1396b004046410961e18a329d7cdf7:198546988,03b2da70350464104f43ba795d4e85e7:304214338,fcc15630b104641017f49496dab01f36:1155723486,af91dafc54c06410b0e7188d62209c60:1139982943,ba119afc04c0641023b9cd36e890e612:790904752,481092bc9cc0641099fd0c14efec80f6:349994330,13ef8e7c96c06410cba91ec2508cc8e1:-1695859031,0def8e7cb4c0641084ed444fb6377c0b:1799941793,71cfca7cfac0641079ead982f60d1508:107359425,ebaf0a7c3fc06410ddee822f26741914:2030871600,409f067c26c0641037ec0b4c8ec9fc03:-1943768830,903fca3c8dc0641046f02752f3e71d01:-517363070,8f0f023c1ac0641052f4906b0041da0d:1484288142,2b2e8eb8f1c064102bb3f9c70e90615b:1259565492,4bcd06b86fc064101941076a99af1290:760632765,2d9d46b8c6c064103b8be51a04f1ec18:875924550,634d4e78b1c06410ecf326ed4bdc290f:-1469945611,270d0a7832c06410b37e094dbbb29a01:-1126566138,9fccce38e7c06410c86b4c4c308ca802:519904337,a80c463834c06410d74d41ec8eba9154:-1791192990,16abcef44ec06410074d51976a2b4934:-1505543573,24e44af45c8064101e21a8a633de86ce:287775326,279446f401806410b34a26ec2be67bf4:340571509,15840eb4ad806410cb7013178de03dec:-1491498196,986442f47a806410cde828f6fd90b9b5:-1999068037,8a04cab49f8064107e1c44d6758008fb:-1209728501,25a342b4ac806410a02814afb714cfe6:1547653982,0273ce7491806410703b1d44e6c59d41:-1899890538,6053c274298064100da012d0ac309757:1192185515,5fe24274ab8064106f62a295588bcce2:1279272200,20c2c6349d806410b027fa4a6e153123:760321387,2d520ef0468064103ae10a698cab6005:199366089,85a106f0428064105c5e59c6a7bbdece:-1046551132,5db046b0ec80641099e8d2224f3a813d:-1324307441,002046706a8064109b55fa499af89d93:-193833613,b6fb313c8c406410e364123a17f6d146:502277762,dc6af5b839406410e536459090f4ee2e:-202833972</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 21:49:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>ac650e1897e64280a975350a3ad69000</sys_id>
+        <sys_metadata>c21931782f406410edca2d6df699b677</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Modules</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_parent display_value="Course">2b6830782f0c2410edca2d6df699b606</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_scope_delete display_value="">1308031dedfc4ef08443e386825c9100</sys_scope_delete>
+        <sys_update_name>sys_ui_action_c21931782f406410edca2d6df699b677</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_c21931782f406410edca2d6df699b677">caadd6492fc02010edca2d6df699b666</sys_update_version>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 21:49:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

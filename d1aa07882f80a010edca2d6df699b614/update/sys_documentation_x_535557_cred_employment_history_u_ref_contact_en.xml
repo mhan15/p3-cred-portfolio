@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_ref_contact" label="May we contact this reference?" language="en" table="x_535557_cred_employment_history">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_ref_contact</element>
+            <help/>
+            <hint/>
+            <label>May we contact this reference?</label>
+            <language>en</language>
+            <name>x_535557_cred_employment_history</name>
+            <plural>May we contact this reference?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 15:23:04</sys_created_on>
+            <sys_id>5eeeef1c2f08e010edca2d6df699b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>May we contact this reference?</sys_name>
+            <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+            <sys_update_name>sys_documentation_x_535557_cred_employment_history_u_ref_contact_en</sys_update_name>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-20 15:23:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

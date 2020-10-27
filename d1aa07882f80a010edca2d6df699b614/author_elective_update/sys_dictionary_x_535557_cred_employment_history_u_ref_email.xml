@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_ref_email" table="x_535557_cred_employment_history">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Email</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_ref_email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>80</max_length>
+        <name>x_535557_cred_employment_history</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-20 15:23:03</sys_created_on>
+        <sys_id>16eeef1c2f08e010edca2d6df699b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_dictionary_x_535557_cred_employment_history_u_ref_email</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-20 15:23:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</application>
+        <file_path/>
+        <instance_id>19f4f648db2f84d04d2bac44d49619a7</instance_id>
+        <instance_name>dev102610</instance_name>
+        <name>sys_dictionary_x_535557_cred_employment_history_u_ref_email</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_ref_email" table="x_535557_cred_employment_history"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Email</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_ref_email</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>80</max_length><name>x_535557_cred_employment_history</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin.muli</sys_created_by><sys_created_on>2020-10-20 15:23:03</sys_created_on><sys_id>16eeef1c2f08e010edca2d6df699b646</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Email</sys_name><sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package><sys_policy/><sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope><sys_update_name>sys_dictionary_x_535557_cred_employment_history_u_ref_email</sys_update_name><sys_updated_by>admin.muli</sys_updated_by><sys_updated_on>2020-10-20 15:23:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>2037610874</payload_hash>
+        <record_name>Employment History.Email</record_name>
+        <reverted_from/>
+        <source>0642eb8c2fc4a010edca2d6df699b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-20 15:23:04</sys_created_on>
+        <sys_id>2aeeef1c2f08e010edca2d6df699b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175469b4de50000001</sys_recorded_at>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-20 15:23:04</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>a2eeef1cb908e010eb5a00a29522b8ea</update_guid>
+        <update_guid_history>a2eeef1cb908e010eb5a00a29522b8ea:2037610874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-20 19:29:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1b3ed089353b4874aea3c9cb23fc0604</sys_id>
+        <sys_metadata>16eeef1c2f08e010edca2d6df699b646</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_parent display_value="Employment History">69386fd02f08e010edca2d6df699b67a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_scope_delete display_value="">1308031dedfc4ef08443e386825c9100</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_535557_cred_employment_history_u_ref_email</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_535557_cred_employment_history_u_ref_email">2aeeef1c2f08e010edca2d6df699b6ea</sys_update_version>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-20 19:29:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

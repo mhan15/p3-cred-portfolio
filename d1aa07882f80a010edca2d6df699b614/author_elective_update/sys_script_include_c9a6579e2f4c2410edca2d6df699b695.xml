@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_535557_cred.cpUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>cpUtils</name>
+        <script><![CDATA[var cpUtils = Class.create();
+cpUtils.prototype = {
+    initialize: function() {},
+
+    appendSkills: function(user_id, skill_array) {
+        for (var i = 0; i < skill_array.length; i++) {
+            var gr = new GlideRecord('sys_user_has_skill');
+            gr.initialize();
+            gr.user = user_id;
+            gr.skill = skill_array[i];
+            gr.insert();
+            gs.info('Skill ' + skill_array[i] + ' has been added to user ' + user_id.name);
+        }
+    },
+
+    type: 'cpUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-26 18:46:57</sys_created_on>
+        <sys_id>c9a6579e2f4c2410edca2d6df699b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cpUtils</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_script_include_c9a6579e2f4c2410edca2d6df699b695</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-26 18:46:57</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</application>
+        <file_path/>
+        <instance_id>19f4f648db2f84d04d2bac44d49619a7</instance_id>
+        <instance_name>dev102610</instance_name>
+        <name>sys_script_include_c9a6579e2f4c2410edca2d6df699b695</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_535557_cred.cpUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;cpUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var cpUtils = Class.create();
+cpUtils.prototype = {
+    initialize: function() {},
+
+    appendSkills: function(user_id, skill_array) {
+        for (var i = 0; i &lt; skill_array.length; i++) {
+            var gr = new GlideRecord('sys_user_has_skill');
+            gr.initialize();
+            gr.user = user_id;
+            gr.skill = skill_array[i];
+            gr.insert();
+            gs.info('Skill ' + skill_array[i] + ' has been added to user ' + user_id.name);
+        }
+    },
+
+    type: 'cpUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin.muli&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-26 18:46:57&lt;/sys_created_on&gt;&lt;sys_id&gt;c9a6579e2f4c2410edca2d6df699b695&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;cpUtils&lt;/sys_name&gt;&lt;sys_package display_value="Credential Portfolio" source="x_535557_cred"&gt;d1aa07882f80a010edca2d6df699b614&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Credential Portfolio"&gt;d1aa07882f80a010edca2d6df699b614&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c9a6579e2f4c2410edca2d6df699b695&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin.muli&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-26 18:46:57&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1564119462</payload_hash>
+        <record_name>cpUtils</record_name>
+        <reverted_from/>
+        <source>0642eb8c2fc4a010edca2d6df699b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-26 18:46:57</sys_created_on>
+        <sys_id>2b171f9e2f4c2410edca2d6df699b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175663c1f4e0000001</sys_recorded_at>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-26 18:46:57</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>63171f9e7b4c2410f112682d4526a2e8</update_guid>
+        <update_guid_history>63171f9e7b4c2410f112682d4526a2e8:1564119462</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-26 18:54:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>00ccfcba59fd470980238371b4b0e999</sys_id>
+        <sys_metadata>c9a6579e2f4c2410edca2d6df699b695</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cpUtils</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_scope_delete display_value="">1308031dedfc4ef08443e386825c9100</sys_scope_delete>
+        <sys_update_name>sys_script_include_c9a6579e2f4c2410edca2d6df699b695</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c9a6579e2f4c2410edca2d6df699b695">2b171f9e2f4c2410edca2d6df699b6e8</sys_update_version>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-26 18:54:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

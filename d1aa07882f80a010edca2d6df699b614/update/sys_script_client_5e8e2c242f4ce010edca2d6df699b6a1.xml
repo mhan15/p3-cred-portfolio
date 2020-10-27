@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto populate parent record number</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var gr = new GlideRecord('task');
+    gr.addQuery('name', 'Muli Han');
+	gr.query(response);
+	
+
+
+    function response(result) {
+        while (result.next()) {
+            // Print all INC with priority 4 – Low AND short description contains 'USB device not working'
+            //g_form.addInfoMessage(result.getValue('number'));
+            g_form.setValue('u_employment_parent', result.number);
+       }
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-20 20:09:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e8e2c242f4ce010edca2d6df699b6a1</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Auto populate parent record number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_script_client_5e8e2c242f4ce010edca2d6df699b6a1</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-20 20:45:32</sys_updated_on>
+        <table>x_535557_cred_employment_history</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

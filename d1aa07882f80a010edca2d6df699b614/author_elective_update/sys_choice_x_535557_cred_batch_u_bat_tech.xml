@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bat_tech" table="x_535557_cred_batch" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bat_tech</element>
+            <name>x_535557_cred_batch</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 21:56:07</sys_created_on>
+            <sys_id>cce885242fcce010edca2d6df699b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_bat_tech</sys_name>
+            <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+            <sys_update_name>sys_choice_x_535557_cred_batch_u_bat_tech</sys_update_name>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-20 21:56:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bat_tech</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>FullStack</label>
+            <language>en</language>
+            <name>x_535557_cred_batch</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 21:56:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3e88de02fcce010edca2d6df699b6cd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:34:43</sys_updated_on>
+            <value>fullstack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bat_tech</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Pega System</label>
+            <language>en</language>
+            <name>x_535557_cred_batch</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 21:56:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79e885242fcce010edca2d6df699b64c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:34:43</sys_updated_on>
+            <value>pega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bat_tech</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>ServiceNow</label>
+            <language>en</language>
+            <name>x_535557_cred_batch</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 21:56:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ec805242fcce010edca2d6df699b6c4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:34:43</sys_updated_on>
+            <value>servicenow</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

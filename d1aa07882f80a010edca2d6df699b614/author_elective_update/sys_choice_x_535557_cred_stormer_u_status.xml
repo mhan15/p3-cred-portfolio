@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_535557_cred_stormer" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_535557_cred_stormer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-19 21:31:20</sys_created_on>
+            <sys_id>1b99f3042fc8a010edca2d6df699b62c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+            <sys_update_name>sys_choice_x_535557_cred_stormer_u_status</sys_update_name>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-19 21:31:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prospective</label>
+            <language>en</language>
+            <name>x_535557_cred_stormer</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-19 21:31:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f99f3042fc8a010edca2d6df699b62b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-19 21:31:20</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Storm Chaser</label>
+            <language>en</language>
+            <name>x_535557_cred_stormer</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-19 21:31:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1399f3042fc8a010edca2d6df699b62f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-19 21:31:20</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Placement</label>
+            <language>en</language>
+            <name>x_535557_cred_stormer</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-19 21:31:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5399f3042fc8a010edca2d6df699b631</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-19 21:31:20</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Placed with Client</label>
+            <language>en</language>
+            <name>x_535557_cred_stormer</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-19 21:31:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9399f3042fc8a010edca2d6df699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-19 21:31:20</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inactive</label>
+            <language>en</language>
+            <name>x_535557_cred_stormer</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-19 21:31:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d399f3042fc8a010edca2d6df699b635</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-19 21:31:20</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_535557_cred_stormer</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-19 21:31:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1799f3042fc8a010edca2d6df699b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-19 21:31:20</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_535557_cred_batch</basic_apply_to>
+        <basic_query_from>x_535557_cred_course</basic_query_from>
+        <insert_callback/>
+        <name>Course to batch relationship</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field>assigned_to</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-21 15:38:30</sys_created_on>
+        <sys_id>e8ebf87c2f0c2410edca2d6df699b623</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Course to batch relationship</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_relationship_e8ebf87c2f0c2410edca2d6df699b623</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-21 15:56:12</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8ebf87c2f0c2410edca2d6df699b623"/>
+</record_update>

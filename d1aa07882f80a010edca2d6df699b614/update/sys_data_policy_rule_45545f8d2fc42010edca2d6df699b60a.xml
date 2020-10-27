@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>u_bat.u_bat_start</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 21:22:41</sys_created_on>
+        <sys_data_policy display_value="Set Batch fields to read only">da249b8d2fc42010edca2d6df699b637</sys_data_policy>
+        <sys_id>45545f8d2fc42010edca2d6df699b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_bat.u_bat_start</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_data_policy_rule_45545f8d2fc42010edca2d6df699b60a</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 21:22:41</sys_updated_on>
+        <table>x_535557_cred_course</table>
+    </sys_data_policy_rule>
+</record_update>

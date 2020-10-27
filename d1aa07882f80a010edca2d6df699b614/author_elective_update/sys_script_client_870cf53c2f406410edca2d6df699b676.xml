@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_bat</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate course modules onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var tech = g_form.getReference('u_bat', setModules);
+
+    function setModules(batch) {
+
+        if (batch.u_bat_tech == 'ServiceNow') {
+            g_form.addInfoMessage('Course Modules for ServiceNow have been populated.');
+            g_form.clearOptions('u_course_mod');
+            g_form.addOption('u_course_mod', '0', 'Not Started');
+            g_form.addOption('u_course_mod', '1', '1. ServiceNow Fundamentals');
+            g_form.addOption('u_course_mod', '2', '2. Automation');
+            g_form.addOption('u_course_mod', '3', '3. Client-side Scripting');
+            g_form.addOption('u_course_mod', '4', '4. Server-side Scripting');
+            g_form.addOption('u_course_mod', '5', '5. ServiceNow Application Development');
+            g_form.addOption('u_course_mod', '6', '6. Performance Analytics');
+            g_form.addOption('u_course_mod', '7', '7. Service Portal');
+            g_form.addOption('u_course_mod', '8', '8. Individual Project');
+            g_form.addOption('u_course_mod', '9', '9. Team Project');
+            g_form.addOption('u_course_mod', '10', '10. Group Project');
+        }
+
+        if (batch.u_bat_tech == 'Pega System') {
+            g_form.addInfoMessage('Course Modules for Pega System have been populated.');
+            g_form.clearOptions('u_course_mod');
+            g_form.addOption('u_course_mod', '0', 'Not Started');
+            g_form.addOption('u_course_mod', '1', '1. Introduction to Pega');
+            g_form.addOption('u_course_mod', '2', '2. Case Management');
+            g_form.addOption('u_course_mod', '3', '3. Data Modeling');
+            g_form.addOption('u_course_mod', '4', '4. Validation');
+            g_form.addOption('u_course_mod', '5', '5. Information Exchange');
+            g_form.addOption('u_course_mod', '6', '6. User Interface');
+            g_form.addOption('u_course_mod', '7', '7. Application Development');
+            g_form.addOption('u_course_mod', '8', '8. Individual Project');
+            g_form.addOption('u_course_mod', '9', '9. Team Project');
+            g_form.addOption('u_course_mod', '10', '10. Group Project');
+        }
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-21 20:19:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>870cf53c2f406410edca2d6df699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate course modules onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_script_client_870cf53c2f406410edca2d6df699b676</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-21 20:19:28</sys_updated_on>
+        <table>x_535557_cred_course</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</application>
+        <file_path/>
+        <instance_id>19f4f648db2f84d04d2bac44d49619a7</instance_id>
+        <instance_name>dev102610</instance_name>
+        <name>sys_script_client_870cf53c2f406410edca2d6df699b676</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_bat&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate course modules onchange&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var tech = g_form.getReference('u_bat', setModules);
+
+    function setModules(batch) {
+
+        if (batch.u_bat_tech == 'ServiceNow') {
+            g_form.addInfoMessage('Course Modules for ServiceNow have been populated.');
+            g_form.clearOptions('u_course_mod');
+            g_form.addOption('u_course_mod', '0', 'Not Started');
+            g_form.addOption('u_course_mod', '1', '1. ServiceNow Fundamentals');
+            g_form.addOption('u_course_mod', '2', '2. Automation');
+            g_form.addOption('u_course_mod', '3', '3. Client-side Scripting');
+            g_form.addOption('u_course_mod', '4', '4. Server-side Scripting');
+            g_form.addOption('u_course_mod', '5', '5. ServiceNow Application Development');
+            g_form.addOption('u_course_mod', '6', '6. Performance Analytics');
+            g_form.addOption('u_course_mod', '7', '7. Service Portal');
+            g_form.addOption('u_course_mod', '8', '8. Individual Project');
+            g_form.addOption('u_course_mod', '9', '9. Team Project');
+            g_form.addOption('u_course_mod', '10', '10. Group Project');
+        }
+
+        if (batch.u_bat_tech == 'Pega System') {
+            g_form.addInfoMessage('Course Modules for Pega System have been populated.');
+            g_form.clearOptions('u_course_mod');
+            g_form.addOption('u_course_mod', '0', 'Not Started');
+            g_form.addOption('u_course_mod', '1', '1. Introduction to Pega');
+            g_form.addOption('u_course_mod', '2', '2. Case Management');
+            g_form.addOption('u_course_mod', '3', '3. Data Modeling');
+            g_form.addOption('u_course_mod', '4', '4. Validation');
+            g_form.addOption('u_course_mod', '5', '5. Information Exchange');
+            g_form.addOption('u_course_mod', '6', '6. User Interface');
+            g_form.addOption('u_course_mod', '7', '7. Application Development');
+            g_form.addOption('u_course_mod', '8', '8. Individual Project');
+            g_form.addOption('u_course_mod', '9', '9. Team Project');
+            g_form.addOption('u_course_mod', '10', '10. Group Project');
+        }
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin.muli&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-21 20:19:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;870cf53c2f406410edca2d6df699b676&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate course modules onchange&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Credential Portfolio" source="x_535557_cred"&gt;d1aa07882f80a010edca2d6df699b614&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Credential Portfolio"&gt;d1aa07882f80a010edca2d6df699b614&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_870cf53c2f406410edca2d6df699b676&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin.muli&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-21 20:19:28&lt;/sys_updated_on&gt;&lt;table&gt;x_535557_cred_course&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-720247077</payload_hash>
+        <record_name>Populate course modules onchange</record_name>
+        <reverted_from/>
+        <source>0642eb8c2fc4a010edca2d6df699b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-21 20:19:28</sys_created_on>
+        <sys_id>c25cbd3c2f406410edca2d6df699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1754cd105130000001</sys_recorded_at>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-21 20:19:28</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0e5cbd3c2a406410d5633602a384bbeb</update_guid>
+        <update_guid_history>0e5cbd3c2a406410d5633602a384bbeb:-720247077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 19:32:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>8745c7b9477148aa9a43190992e11621</sys_id>
+        <sys_metadata>870cf53c2f406410edca2d6df699b676</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate course modules onchange</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_parent display_value="Course">2b6830782f0c2410edca2d6df699b606</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_scope_delete display_value="">1308031dedfc4ef08443e386825c9100</sys_scope_delete>
+        <sys_update_name>sys_script_client_870cf53c2f406410edca2d6df699b676</sys_update_name>
+        <sys_update_version display_value="sys_script_client_870cf53c2f406410edca2d6df699b676">c25cbd3c2f406410edca2d6df699b6ec</sys_update_version>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 19:32:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

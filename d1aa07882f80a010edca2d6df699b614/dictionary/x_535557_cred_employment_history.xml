@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employment History" max_length="40" name="x_535557_cred_employment_history" sizeclass="4" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Employer" max_length="32" name="u_employer" reference="core_company" type="reference"/>
+        <element label="Description" max_length="65536" name="u_employment_des" type="html"/>
+        <element label="Duration (months)" max_length="40" name="u_employment_dur" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" hint="yyyy-mm-dd" label="To" max_length="40" name="u_employment_end" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Parent" max_length="32" name="u_employment_parent" reference="x_535557_cred_stormer" reference_qual="nameSAMEASname^EQ" reference_qual_condition="nameSAMEASname^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" hint="yyyy-mm-dd" label="Start from" max_length="40" name="u_employment_start" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="u_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Position/title" max_length="40" name="u_position" type="string"/>
+        <element label="This is my current employment" max_length="40" name="u_present" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Reference name" max_length="32" name="u_reference_name" reference="sys_user" type="reference"/>
+        <element label="May we contact this reference?" max_length="40" name="u_ref_contact" type="boolean"/>
+        <index name="index">
+            <element name="u_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_employer"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_name"/>
+        </index>
+        <index name="index4">
+            <element name="u_employment_parent"/>
+        </index>
+    </element>
+</database>

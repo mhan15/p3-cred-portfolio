@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_mod" table="x_535557_cred_course" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_mod</element>
+            <name>x_535557_cred_course</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 14:44:57</sys_created_on>
+            <sys_id>a3597dcd2f002010edca2d6df699b6ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_mod</sys_name>
+            <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+            <sys_update_name>sys_choice_x_535557_cred_course_u_mod</sys_update_name>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 14:44:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Started</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 19:37:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a34cb2cd2f442010edca2d6df699b607</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:38:20</sys_updated_on>
+            <value>sn0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - ServiceNow Fundamentals</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e40d2892f802010edca2d6df699b63e</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Automation</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da40d2892f802010edca2d6df699b641</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Client-side Scripting</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1240d2892f802010edca2d6df699b644</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Server-side Scripting</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5640d2892f802010edca2d6df699b646</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - ServiceNow Application Development</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a40d2892f802010edca2d6df699b648</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6 - Performance Analytics</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de40d2892f802010edca2d6df699b64a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7 - Service Portal</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1640d2892f802010edca2d6df699b64d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8 - Individual Project</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a40d2892f802010edca2d6df699b64f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9 - Team Project</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e40d2892f802010edca2d6df699b651</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>b7af564d2fc02010edca2d6df699b6d3</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10 - Group Project</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 16:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d240d2892f802010edca2d6df699b654</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 19:37:24</sys_updated_on>
+            <value>sn10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Started</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 20:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd67cb0d2f842010edca2d6df699b653</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 20:26:40</sys_updated_on>
+            <value>pg0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Introduction to Pega</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa599a812fc02010edca2d6df699b66c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:32</sys_updated_on>
+            <value>pg1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Case Management</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2599a812fc02010edca2d6df699b6ad</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:35</sys_updated_on>
+            <value>pg2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Data Modeling</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a599a812fc02010edca2d6df699b6af</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:38</sys_updated_on>
+            <value>pg3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Validation</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e599a812fc02010edca2d6df699b6b1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:41</sys_updated_on>
+            <value>pg4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - Information Exchange</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2599a812fc02010edca2d6df699b6b4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:44</sys_updated_on>
+            <value>pg5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6 - User Interface</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6599a812fc02010edca2d6df699b6b6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:48</sys_updated_on>
+            <value>pg6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7 - Application Development</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e599a812fc02010edca2d6df699b6b8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:52</sys_updated_on>
+            <value>pg7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8 - Individual Project</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72599a812fc02010edca2d6df699b6bb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:57:57</sys_updated_on>
+            <value>pg8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9 - Team Project</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6599a812fc02010edca2d6df699b6bd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:58:20</sys_updated_on>
+            <value>pg9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4ebfde0d2fc02010edca2d6df699b65d</dependent_value>
+            <element>u_mod</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10 - Group Project</label>
+            <language>en</language>
+            <name>x_535557_cred_course</name>
+            <sequence>21</sequence>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-22 17:04:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa599a812fc02010edca2d6df699b6bf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-22 17:58:23</sys_updated_on>
+            <value>pg10</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

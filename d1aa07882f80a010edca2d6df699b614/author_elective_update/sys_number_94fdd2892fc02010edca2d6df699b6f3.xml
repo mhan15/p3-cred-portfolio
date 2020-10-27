@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_535557_cred_tech">x_535557_cred_tech</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>TEC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 17:24:44</sys_created_on>
+        <sys_id>94fdd2892fc02010edca2d6df699b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEC</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_number_94fdd2892fc02010edca2d6df699b6f3</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 17:24:44</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</application>
+        <file_path/>
+        <instance_id>19f4f648db2f84d04d2bac44d49619a7</instance_id>
+        <instance_name>dev102610</instance_name>
+        <name>sys_number_94fdd2892fc02010edca2d6df699b6f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_535557_cred_tech">x_535557_cred_tech</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>TEC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin.muli</sys_created_by><sys_created_on>2020-10-22 17:24:44</sys_created_on><sys_id>94fdd2892fc02010edca2d6df699b6f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TEC</sys_name><sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package><sys_policy/><sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope><sys_update_name>sys_number_94fdd2892fc02010edca2d6df699b6f3</sys_update_name><sys_updated_by>admin.muli</sys_updated_by><sys_updated_on>2020-10-22 17:24:44</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>291257175</payload_hash>
+        <record_name>TEC</record_name>
+        <reverted_from/>
+        <source>0642eb8c2fc4a010edca2d6df699b602</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 17:24:45</sys_created_on>
+        <sys_id>18fd16892fc02010edca2d6df699b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17551576bbf0000001</sys_recorded_at>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 17:24:45</sys_updated_on>
+        <type>Number</type>
+        <update_guid>50fd1689f0c02010220640fbf7600f17</update_guid>
+        <update_guid_history>50fd1689f0c02010220640fbf7600f17:291257175</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-22 17:30:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>025da777d8374936995aa46b8d138024</sys_id>
+        <sys_metadata>94fdd2892fc02010edca2d6df699b6f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEC</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_parent display_value="">16bdde492fc02010edca2d6df699b633</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_scope_delete display_value="">1308031dedfc4ef08443e386825c9100</sys_scope_delete>
+        <sys_update_name>sys_number_94fdd2892fc02010edca2d6df699b6f3</sys_update_name>
+        <sys_update_version display_value="sys_number_94fdd2892fc02010edca2d6df699b6f3">18fd16892fc02010edca2d6df699b617</sys_update_version>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-22 17:30:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

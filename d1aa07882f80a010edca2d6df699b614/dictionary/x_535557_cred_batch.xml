@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Batch" max_length="40" name="x_535557_cred_batch" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Progress" max_length="40" name="progress" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="u_bat_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Batch name" max_length="40" name="u_bat_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="u_bat_start" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Technology" max_length="32" name="u_bat_tech" reference="x_535557_cred_tech" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="# of Weeks" max_length="40" name="u_bat_weeks" read_only="true" type="string"/>
+    </element>
+</database>

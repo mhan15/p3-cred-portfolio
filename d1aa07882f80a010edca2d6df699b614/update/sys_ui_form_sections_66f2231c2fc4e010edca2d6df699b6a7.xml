@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="66f2231c2fc4e010edca2d6df699b6a7" sys_domain="global" table="sn_customerservice_appointment" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 14:30:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ef2a71c2fc4e010edca2d6df699b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_customerservice_appointment" name="sn_customerservice_appointment" sys_domain="global" view="Default view">66f2231c2fc4e010edca2d6df699b6a7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_appointment" sys_domain="global" view="Default view">aaf2a71c2fc4e010edca2d6df699b624</sys_ui_section>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-20 14:30:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 14:30:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3af2a71c2fc4e010edca2d6df699b630</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_customerservice_appointment" name="sn_customerservice_appointment" sys_domain="global" view="Default view">66f2231c2fc4e010edca2d6df699b6a7</sys_ui_form>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="sn_customerservice_appointment" sys_domain="global" view="Default view">76f2a71c2fc4e010edca2d6df699b62a</sys_ui_section>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-20 14:30:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 14:30:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ef2a71c2fc4e010edca2d6df699b623</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_customerservice_appointment" name="sn_customerservice_appointment" sys_domain="global" view="Default view">66f2231c2fc4e010edca2d6df699b6a7</sys_ui_form>
+            <sys_ui_section caption="Content" display_value="Content" name="sn_customerservice_appointment" sys_domain="global" view="Default view">a2f2a71c2fc4e010edca2d6df699b61c</sys_ui_section>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-20 14:30:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_customerservice_appointment</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin.muli</sys_created_by>
+            <sys_created_on>2020-10-20 14:30:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66f2231c2fc4e010edca2d6df699b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_customerservice_appointment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+            <sys_update_name>sys_ui_form_sections_66f2231c2fc4e010edca2d6df699b6a7</sys_update_name>
+            <sys_updated_by>admin.muli</sys_updated_by>
+            <sys_updated_on>2020-10-20 14:30:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

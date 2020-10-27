@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Course" max_length="40" name="x_535557_cred_course" sizeclass="10" type="collection">
+        <element attributes="encode_utf8=false" label="Batch" max_length="32" name="u_bat" reference="x_535557_cred_batch" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" choice_field="assignment_preference" dependent="u_mod_tech" dependent_on_field="u_mod_tech" label="Module" max_length="40" name="u_mod" type="string" use_dependent_field="true" use_dynamic_default="true">
+            <choice>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="Not Started" sequence="0" value="sn0"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="1 - ServiceNow Fundamentals" sequence="1" value="sn1"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="2 - Automation" sequence="2" value="sn2"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="3 - Client-side Scripting" sequence="3" value="sn3"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="4 - Server-side Scripting" sequence="4" value="sn4"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="5 - ServiceNow Application Development" sequence="5" value="sn5"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="6 - Performance Analytics" sequence="6" value="sn6"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="7 - Service Portal" sequence="7" value="sn7"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="8 - Individual Project" sequence="8" value="sn8"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="9 - Team Project" sequence="9" value="sn9"/>
+                <element dependent_value="b7af564d2fc02010edca2d6df699b6d3" inactive_on_update="false" label="10 - Group Project" sequence="10" value="sn10"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="Not Started" sequence="11" value="pg0"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="1 - Introduction to Pega" sequence="12" value="pg1"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="2 - Case Management" sequence="13" value="pg2"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="3 - Data Modeling" sequence="14" value="pg3"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="4 - Validation" sequence="15" value="pg4"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="5 - Information Exchange" sequence="16" value="pg5"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="6 - User Interface" sequence="17" value="pg6"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="7 - Application Development" sequence="18" value="pg7"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="8 - Individual Project" sequence="19" value="pg8"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="9 - Team Project" sequence="20" value="pg9"/>
+                <element dependent_value="4ebfde0d2fc02010edca2d6df699b65d" inactive_on_update="false" label="10 - Group Project" sequence="21" value="pg10"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Course end" max_length="40" name="u_mod_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Course start" max_length="40" name="u_mod_start" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Technology" max_length="32" name="u_mod_tech" reference="x_535557_cred_tech" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Progress" max_length="40" name="u_week_num" type="string"/>
+    </element>
+</database>
