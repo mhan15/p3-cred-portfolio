@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_535557_cred_stormer</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Hi ${name}:<br />,</p>
+<p>I am JavaScript:gs.getUser();&nbsp;and I work as a [<em>your job_title</em>] at [<em>Company_name</em>]. I saw your profile on [<em>e.g. LinkedIn or GitHub</em>] and I was really impressed by your experience in [<em>add specific field or an achievement that caught your eye</em>].</p>
+<p>Here at [<em>Company_name</em>], we are always looking to [<em>e.g. grow or teams with talented people and achieve great things together / collaborate with talented people who&rsquo;d like to work with one of our clients, like X, Y, Z companies.</em>]</p>
+<p>[<em>If you&rsquo;re hiring for a specific role, it&rsquo;s best to include specific information about the position, e.g. We are currently looking for a [job_title &ndash; add link to the job description] to join our team/ work with one of our clients. I&rsquo;d love to tell you a little more about this position and learn a few things about you, as well.</em>]</p>
+<p>I&rsquo;d like to talk to you so I can get to know you better and introduce our company to you.<br />Are you available [<em>Include date and time or a period of time, e.g. &lsquo;sometime this week&rsquo;</em>]? If so, I&rsquo;d be happy to set up a call. I&rsquo;m also happy to coordinate via email or LinkedIn, if you prefer.</p>
+<p>I hope you have a great day.</p>
+<p>Sincerely,</p>
+<p>[<em>Your name</em>]<br />[<em>Signature</em>]</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>recruiter test</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-27 21:00:09</sys_created_on>
+        <sys_id>9a9e78722fc0a410edca2d6df699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>recruiter test</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sysevent_email_template_9a9e78722fc0a410edca2d6df699b6cd</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-27 21:00:09</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

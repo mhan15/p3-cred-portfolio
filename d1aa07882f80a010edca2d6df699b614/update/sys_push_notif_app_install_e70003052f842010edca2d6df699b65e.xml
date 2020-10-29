@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2020-10-27 14:47:44</last_registered_on>
+        <last_registered_on>2020-10-29 16:54:14</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>admin.mike</sys_created_by>
         <sys_created_on>2020-10-22 19:53:47</sys_created_on>
         <sys_id>e70003052f842010edca2d6df699b65e</sys_id>
-        <sys_mod_count>94</sys_mod_count>
+        <sys_mod_count>208</sys_mod_count>
         <sys_name>f508If60i1U:APA91bFQvOgwHIh88q3WI0Zz8fSV0JFpCKn4gXWGWY8_bXrNb-0VcV-rlcKjEA9FyiesmVcTO69CzxEuuf5UkEI6_8JTiP4X8yeGyvQiOpcknKI0-oIwxQoPIZ5qCA_EPL709Q4jrn_6</sys_name>
         <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
         <sys_policy/>
@@ -15,7 +15,7 @@
         <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
         <sys_update_name>sys_push_notif_app_install_e70003052f842010edca2d6df699b65e</sys_update_name>
         <sys_updated_by>admin.mike</sys_updated_by>
-        <sys_updated_on>2020-10-27 14:47:44</sys_updated_on>
+        <sys_updated_on>2020-10-29 16:54:14</sys_updated_on>
         <sys_user_id display_value="Mike Zanercik">201637852f5b1010edca2d6df699b63b</sys_user_id>
         <token>f508If60i1U:APA91bFQvOgwHIh88q3WI0Zz8fSV0JFpCKn4gXWGWY8_bXrNb-0VcV-rlcKjEA9FyiesmVcTO69CzxEuuf5UkEI6_8JTiP4X8yeGyvQiOpcknKI0-oIwxQoPIZ5qCA_EPL709Q4jrn_6</token>
     </sys_push_notif_app_install>

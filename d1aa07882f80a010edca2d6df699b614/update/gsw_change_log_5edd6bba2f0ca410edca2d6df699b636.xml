@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2020-10-28 09:43:13</change_date>
+        <changed_by display_value="Deondra Scott">b746f3852f5b1010edca2d6df699b693</changed_by>
+        <content display_value="View Dashboards">88374fb50b1212001e684ac3b6673a9f</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin.deondra</sys_created_by>
+        <sys_created_on>2020-10-28 09:43:13</sys_created_on>
+        <sys_id>5edd6bba2f0ca410edca2d6df699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2020-10-28 09:43:13</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>gsw_change_log_5edd6bba2f0ca410edca2d6df699b636</sys_update_name>
+        <sys_updated_by>admin.deondra</sys_updated_by>
+        <sys_updated_on>2020-10-28 09:43:13</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

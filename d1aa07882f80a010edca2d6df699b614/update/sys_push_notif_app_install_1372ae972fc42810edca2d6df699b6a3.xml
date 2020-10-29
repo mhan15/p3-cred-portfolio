@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2020-10-29 17:30:57</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin.muli</sys_created_by>
+        <sys_created_on>2020-10-29 17:30:57</sys_created_on>
+        <sys_id>1372ae972fc42810edca2d6df699b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7CA5EB921DC4D07AD0457A5115E1AEFE5E89F858F4FA95F7071EF5213AB1CE22</sys_name>
+        <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_1372ae972fc42810edca2d6df699b6a3</sys_update_name>
+        <sys_updated_by>admin.muli</sys_updated_by>
+        <sys_updated_on>2020-10-29 17:30:57</sys_updated_on>
+        <sys_user_id display_value="Muli Han">8626f3852f5b1010edca2d6df699b650</sys_user_id>
+        <token>7CA5EB921DC4D07AD0457A5115E1AEFE5E89F858F4FA95F7071EF5213AB1CE22</token>
+    </sys_push_notif_app_install>
+</record_update>

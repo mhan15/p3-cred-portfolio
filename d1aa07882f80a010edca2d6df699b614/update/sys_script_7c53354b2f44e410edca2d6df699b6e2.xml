@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Append skills from Stormer record 2</name>
+        <name>Append skills from Stormer record</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -31,25 +31,16 @@
     if (current.skills != previous.skills) {
 
         // convert skill list to array
-        var skill_list = current.skills.toString();
-        var new_skills = skill_list.split(',');
+        var list = current.skills.toString();
+        var array = list.split(',');
 
         // get user_id
         var user = current.name;
 
-        var current_skills = [];
-        var gr = new GlideRecord('sys_user_has_skill');
-        gr.addQuery('user', user);
-        gr.query();
-        while (gr.next()) {
-            current_skills.push(gr.getValue('skill'));
-        }
-
-        var skills_to_add = getDiff(new_skills, current_skills);
-
-
-        appendSkills(user, skills_to_add);
+        appendSkills(user, array);
     }
+    // Add your code here
+
 })(current, previous);
 
 function appendSkills(user_id, skill_array) {
@@ -61,35 +52,24 @@ function appendSkills(user_id, skill_array) {
         gr.insert();
         gs.info('Skill ' + skill_array[i] + ' has been added to user ' + user_id.name);
     }
-}
-
-function getDiff(arr1, arr2) {
-    for (var i = 0; i < arr1.length; i++) {
-        for (var j = 0; j < arr2.length; j++) {
-            if (arr1[i] == arr2[j]) {
-                arr1.splice(i, 1);
-            }
-        }
-    }
-    return arr1;
 }]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin.muli</sys_created_by>
-        <sys_created_on>2020-10-26 19:25:15</sys_created_on>
+        <sys_created_on>2020-10-28 19:26:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c95dd3d62f8c2410edca2d6df699b6fb</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Append skills from Stormer record 2</sys_name>
+        <sys_id>7c53354b2f44e410edca2d6df699b6e2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Append skills from Stormer record</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credential Portfolio" source="x_535557_cred">d1aa07882f80a010edca2d6df699b614</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credential Portfolio">d1aa07882f80a010edca2d6df699b614</sys_scope>
-        <sys_update_name>sys_script_c95dd3d62f8c2410edca2d6df699b6fb</sys_update_name>
+        <sys_update_name>sys_script_7c53354b2f44e410edca2d6df699b6e2</sys_update_name>
         <sys_updated_by>admin.muli</sys_updated_by>
-        <sys_updated_on>2020-10-28 21:19:41</sys_updated_on>
+        <sys_updated_on>2020-10-28 21:19:49</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=c95dd3d62f8c2410edca2d6df699b6fb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c53354b2f44e410edca2d6df699b6e2"/>
 </record_update>
